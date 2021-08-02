@@ -333,8 +333,8 @@ class _TargetWidget extends StatelessWidget {
             decoration: ShapeDecoration(
               shape: shapeBorder ??
                   RoundedRectangleBorder(
-                    borderRadius: const BorderRadius.all(
-                      Radius.circular(8),
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(15),
                     ),
                   ),
             ),
