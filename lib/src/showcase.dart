@@ -109,9 +109,13 @@ class Showcase extends StatefulWidget {
     this.description,
     this.shapeBorder,
     this.overlayColor = Colors.black,
-    this.overlayOpacity = 0.75,
+    this.overlayOpacity = 0.7,
     this.titleTextStyle,
-    this.descTextStyle,
+    this.descTextStyle = TextStyle(
+      color: Colors.white,
+      fontWeight: FontWeight.bold,
+      fontSize: 16,
+    ),
     this.showcaseBackgroundColor = Colors.white,
     this.textColor = Colors.black,
     this.onTargetClick,
@@ -331,9 +335,9 @@ class _TargetWidget extends StatelessWidget {
             height: size!.height + 16,
             width: size!.width + 16,
             decoration: ShapeDecoration(
-              shape: shapeBorder ??
+              shape: 
                   RoundedRectangleBorder(
-                    borderRadius: const BorderRadius.all(
+                    borderRadius: BorderRadius.all(
                       Radius.circular(15),
                     ),
                   ),
