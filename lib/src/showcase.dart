@@ -69,7 +69,7 @@ class Showcase extends StatefulWidget {
       required this.description,
       this.shapeBorder,
       this.overlayColor = Colors.black,
-      this.overlayOpacity = 0.7,
+      this.overlayOpacity,
       this.titleTextStyle,
       this.descTextStyle = const TextStyle(
       color: Colors.white,
@@ -113,7 +113,7 @@ class Showcase extends StatefulWidget {
     this.description,
     this.shapeBorder,
     this.overlayColor = Colors.black,
-    this.overlayOpacity = 0.7,
+    this.overlayOpacity,
     this.titleTextStyle,
     this.descTextStyle = const TextStyle(
       color: Colors.white,
