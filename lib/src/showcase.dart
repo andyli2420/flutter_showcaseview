@@ -71,7 +71,7 @@ class Showcase extends StatefulWidget {
       this.overlayColor = Colors.black,
       this.overlayOpacity = 0.7,
       this.titleTextStyle,
-      this.descTextStyle =  = TextStyle(
+      this.descTextStyle = TextStyle(
       color: Colors.white,
       fontWeight: FontWeight.bold,
       fontSize: 16,
